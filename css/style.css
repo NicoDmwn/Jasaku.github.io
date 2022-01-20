@@ -1,0 +1,520 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container:before, .container:after{
+    content: " ";
+    display: table;
+}
+.container:after{
+    clear: both;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.atas{
+    width: auto;
+    height: 50em;
+}
+.atas2{
+    width: auto;
+    height: 25em;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.075);
+    position: relative;
+    padding: 20px 0 15px 0;
+}
+.judul{
+    float: right;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: auto;
+    color: white;
+}
+.judul a{
+    color: white;
+    text-decoration: none;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-md-1 {
+    width: 8.33333%;
+}
+.col-md-2 {
+    width: 16.66667%;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-4 {
+    width: 33.33333%;
+}
+.col-md-5 {
+    width: 41.66667%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.col-md-7 {
+    width: 58.33333%;
+}
+.col-md-8 {
+    width: 66.66667%;
+}
+.col-md-9 {
+    width: 75%;
+}
+.col-md-10 {
+    width: 83.33333%;
+}
+.col-md-11 {
+    width: 91.66667%;
+}
+.col-md-12 {
+    width: 100%;
+}
+.col-offset-0 {
+    margin-left: 0%;
+}
+.col-offset-1 {
+    margin-left: 8.33333%;
+}
+.col-offset-2 {
+    margin-left: 16.66667%;
+}
+.col-offset-3 {
+    margin-left: 25%;
+}
+.col-offset-4 {
+    margin-left: 33.33333%;
+}
+.col-offset-5 {
+    margin-left: 41.66667%;
+}
+.col-offset-6 {
+    margin-left: 50%;
+}
+.col-offset-7 {
+    margin-left: 58.33333%;
+}
+.col-offset-8 {
+    margin-left: 66.66667%;
+}
+.col-offset-9 {
+    margin-left: 75%;
+}
+.col-offset-10 {
+    margin-left: 83.33333%;
+}
+.col-offset-11 {
+    margin-left: 91.66667%;
+}
+.col-offset-12 {
+    margin-left: 100%;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 15px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 17px 15px;
+    margin: 0;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e6e6e6;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.164);
+    z-index: 1;
+} 
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 50em;
+}
+.bg2{
+    position: absolute;
+    width: 100%;
+    height: 25em;
+}
+.button-nav{
+    font-size: 15px;  
+    padding: 15px 0 15px 0;
+}
+.button-nav a{
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    color: white;
+}
+.button-nav button{
+    font-size: 15px;  
+    border: 2px solid white;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+.bar-atas p{
+    position: absolute;
+    font-size: xx-large;
+    color: white;
+    padding: 2em 0 1em 0;
+}
+.cari{
+    position: absolute;
+    top: 15em;
+    padding: 2em 0 1em 0;
+    width: 27em;
+}
+.cari input{
+    width: 100%;
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+}
+.cari ::placeholder{
+    opacity: 50%;
+}
+.button-cari{
+    position: absolute;
+    top: 15em;
+    margin-left: 26em;
+    padding: 2em 0 1em 1em;
+}
+.button-cari input{
+    width: 5em;
+    height: 2.2em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(91, 139, 211);
+}
+.spasi{
+    margin-top: 755px;
+}
+.navbar{
+    background-color: rgb(98, 136, 193);
+    padding: 13px 0 13px 0;
+}
+.navbar a{
+    padding-left: 70px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-family: verdana;
+    color: rgb(255, 255, 255);
+}
+.content-atas{
+    width: 100%;
+    height: 28em;
+    background-color: rgb(240, 240, 240);
+}
+.judul2{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    padding: 1em 0 0 0;
+}
+.content{
+    padding: 2.5em 1.2em 0 0;
+}
+.content img{
+    width: 100%;
+    height: 13em;
+}
+.tentang{
+    padding: 2em 0 0 0;
+}
+.tentang-bg{
+    width: 100%;
+    height: 25em;
+    background-image: url('/UDINUS/TI/PEMWEB/HTML/Tugas_Akhir/image/bg1.png');
+}
+.tentang-row{
+    margin-left: 5em;
+    padding: 1em 2em 2em 2em;
+    background-color: white;
+    width: 100%;
+    height: 22em;
+}
+.tentang2{
+    width: 100%;
+    height: 28em;
+    background-color: rgb(240, 240, 240);
+}
+.tentang2-card{
+    width: 100%;
+    margin-left: 5em;
+    padding: 3em 0 2em 2em;
+}
+.tentang2-card img{
+    width: 80%;
+    height: 20em;
+    border-radius: 1em;
+}
+.tentang2-card2{
+    width: 100%;
+    height: 18em;
+    padding: 2em 0 3em 0;
+    background-color: rgb(98, 136, 193);
+    border-radius: 0 0 1em 1em;
+}
+.tentang2-card2 p{
+    padding: 0 8em 0 1em;
+    color: white;
+    font-size: 20px;
+}
+.ikut-partner{
+    width: 100%;
+    height: 29em;
+    background-color: rgba(98, 136, 193, 0.400);
+}
+.ikut-img img{
+    width: 100%;
+}
+.ikut-card{
+    width: 21em;
+    height: 24.8em;
+    background-color: rgba(153, 153, 153, 0.466);
+    padding: 0 2em 0 2em;
+    border-radius: 1em 1em 0 0;
+}
+.ikut-content center{
+    padding: 1em 0 1em 0;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.ikut-isi{
+    padding: 1em;
+}
+.button-beli{
+    padding: 2em 1em 0 6em;
+}
+.beli{
+    width: 10em;
+    border: none;
+    border-radius: 5em;
+}
+.button-beli :hover{
+    background-color: powderblue;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+}
+.footer-card{
+    color: white;
+    padding: 0 0 5em 0;
+}
+.footer-card a{
+    text-decoration: none;
+    color: white;
+}
+.copyright{
+    width: 100%;
+    background-color: rgb(55,55,55);
+    padding: 1em 0 1em 0;
+}
+.copyright small{
+    color: white;
+    padding: 0 0 0 3em;
+}
+.judul-bawah{
+    color: white;
+    font-weight: bolder;
+    font-size:x-large;
+}
+.row2{
+    margin: 10px -16px;
+}
+.column{
+    float: left;
+    width: 23.33%;
+    display: none; 
+    padding: 0 1em 1em 0;
+}
+.row2:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.content2{
+    background-color: rgb(238, 238, 238);
+    padding: 10px;
+    box-shadow: -5px 10px 5px 0 rgba(0, 0, 0, 0.315);
+}
+.show {
+    display: block;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ddd;
+}
+.btn.active {
+    background-color: rgb(98, 136, 193);
+    color: white;
+}
+.main {
+    max-width: 80em;
+    margin: auto;
+}
+.login{
+    width: 100%;
+    height: 30em;
+    padding: 6em 0em 4em 0em;
+    background-color: rgb(247, 247, 247);
+}
+.login-card{
+    width: 100%;
+    height: 20em;
+    padding: 2em 4em 4em 4em;
+    background-color: rgb(233, 233, 233);
+    border-radius: 2em;
+    box-shadow: -5px 10px 5px 0 rgba(0, 0, 0, 0.315);
+}
+.login-isi{
+    font-size: large;
+    padding: 1em;
+    font-weight: 600;
+}
+.login-isi input{
+    width: 30em;
+    height: 2em;
+    border: none;
+    border-radius: 15px;
+    padding: 0 0 0 1em;
+    background-color: rgb(98, 136, 193);
+    color: white;
+}
+.login-isi button{
+    width: 6em;
+    height: 3em;
+    margin-left: 32em;
+    border: none;
+    border-radius: 1em;
+    background-color: rgb(98, 136, 193);
+    color: white;
+}
+.login-isi button:hover{
+    background-color: white;
+    color: black;
+}
+.kat-content{
+    width: 100%;
+    height: 100em;
+    background-color: rgb(226, 226, 226);
+    padding-top: 4em;
+}
+.kat-card{
+    width: 100%;
+    height: 95em;
+    background-color: rgb(250, 250, 250);
+    padding: 1em 2em 2em 2em;
+    border-radius: 15px;
+}
+.cart-card{
+    color: white;
+    width: 100%;
+    height: 10em;
+    background-color: rgb(98, 136, 193);
+    padding: 5px 20px 30px 20px;
+    border-radius: 15px;
+}
+.cart-card button{
+    width: 6em;
+    height: 3em;
+    border: none;
+    border-radius: 1em 1em 0 0;
+    background-color: rgb(68, 71, 73);
+    color: white;
+}
+.cart-card button:hover{
+    background-color: rgb(193, 206, 214);
+    color: rgb(54, 54, 54);
+}
+.ikutpartner{
+    width: 100%;
+    height: 50em;
+    background-color: rgb(255, 255, 255);
+    padding-top: 4em;
+}
+.ikutpartner-card{
+    width: 100%;
+    height: 40em;
+    background-color: rgb(250, 250, 250);
+    padding: 1em 2em 2em 2em;
+    border-radius: 15px;
+    box-shadow: -5px 10px 5px 0 rgba(0, 0, 0, 0.315);
+}
+.beliskg button{
+    width: 9em;
+    height: 2em;
+    border-radius: 15px;
+    border: none;
+}
+.beliskg :hover{
+    background-color: rgb(98, 136, 193);
+    color: white;
+}
+.help{
+    width: 100%;
+    height: 50em;
+    background-color: rgb(255, 255, 255);
+    padding-top: 4em;
+}
+.help-card{
+    width: 100%;
+    height: 40em;
+    background-color: rgb(250, 250, 250);
+    padding: 1em 2em 2em 2em;
+    border-radius: 15px;
+    box-shadow: -5px 10px 5px 0 rgba(0, 0, 0, 0.315);
+}
+textarea{
+    width: 70%;
+    height: 10em;
+}

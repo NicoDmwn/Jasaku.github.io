@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kategori JASAKU</title>
+        <meta charset="utf-8">
+        <meta charset="viewpoint" content="width=device-width", initial-scale=1>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+
+<div class="atas2">
+<img src="image/kategori-bg.png" class="bg2">
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="judul"><a href="index.html">JASAKU</a></div>
+            </div>    
+            <div class="col-offset-6 col-md-4">
+                <div class="dropdown">
+                    <button class="dropbtn">Kategori 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Desain Grafis</a>
+                        <a href="#">Pemasaran Digital</a>
+                        <a href="#">Video & Animasi</a>
+                        <a href="#">Pemrograman & Teknologi</a>
+                        <a href="#">Data</a>
+                    </div>
+                </div>
+                <div class="button-nav">
+                    <a href="#" onclick="myFunction()">Komunitas</a>
+                    <a href="index.html#ikut_partner">Ikut Partner</a>
+                    <button>
+                        <a href="login.html">Sign in</a>
+                    </button>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bar-atas">
+    <div class="container">
+        <div class="row">
+            <div class="col-offset-1">
+                 <div class="col-md-5">
+                    <p>Pilih Kategori untuk<br>mengembangkan Bisnismu disini</p>
+                    <div class="cari">
+                        <input type="text" placeholder="Design Logo, Custom Website, Car Fix,...">
+                    </div>
+                    <div class="button-cari">
+                        <input type="submit" value="Cari">
+                    </div>
+                 </div>   
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-offset-2 col-md-8">
+                <a href="#" onclick="filterSelection('logo')">Desain Grafis</a>
+                <a href="#" onclick="filterSelection('media')">Pemasaran Digital</a>
+                <a href="#" onclick="filterSelection('video')">Video & Animasi</a>
+                <a href="#" onclick="filterSelection('tech')">Pemrograman & Teknologi</a>
+                <a href="#" onclick="filterSelection('data')">Data</a>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</div>
+
+<div class="content-atas">
+    <div class="container">
+        <div class="row">
+            <div class="col-offset-2">
+                <div class="col-md-3">
+                    <div class="judul2">
+                        Populer Hari ini
+                    </div>
+                    <a>Mungkin Kamu sedang mencari ini...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-offset-2">
+                <div class="col-md-2">
+                    <div class="content">
+                        <a>Logo Desain</a>
+                        <img src="image/logo_desain.png">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="content">
+                        <a>Custom Website</a>
+                        <img src="image/custom_website.png">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="content">
+                        <a>Video Branding</a>
+                        <img src="image/video.png">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="content">
+                        <a>Pemasaran Media Sosial</a>
+                        <img src="image/media_sosial.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="main">
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('logo')"> Logo Desain</button>
+        <button class="btn" onclick="filterSelection('video')"> Video</button>
+        <button class="btn" onclick="filterSelection('data')"> Data</button>
+        <button class="btn" onclick="filterSelection('tech')"> Tech</button>
+        <button class="btn" onclick="filterSelection('media')"> Media</button>
+    </div><br>
+      <div class="row2">
+        <div class="column video">
+          <div class="content2">
+            <img src="image/video2.jpg" alt="Mountains" style="width:100%; height: 12em;">
+            <h4>Animation Sketch</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column logo">
+          <div class="content2">
+          <img src="image/logo-desain.png" alt="Lights" style="width:100%; height: 12em;">
+            <h4>Logo Maker</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column logo">
+          <div class="content2">
+          <img src="image/logo-desain2.jpg" alt="Nature" style="width:100%; height: 12em;">
+            <h4>Design Text</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column logo">
+          <div class="content2">
+            <img src="image/logo-desain3.png" alt="Car" style="width:100%; height: 12em;">
+            <h4>Logo Esport</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column video">
+          <div class="content2">
+          <img src="image/video3.png" alt="Car" style="width:100%; height: 12em;">
+            <h4>Editing Video</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column media">
+          <div class="content2">
+          <img src="image/media2.jpeg" alt="Car" style="width:100%; height: 12em;">
+            <h4>Media Strategy</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column tech">
+          <div class="content2">
+            <img src="image/tech2.png" alt="Car" style="width:100%; height: 12em;">
+            <h4>Game Development</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column tech">
+          <div class="content2">
+          <img src="image/tech.png" alt="Car" style="width:100%; height: 12em;">
+            <h4>Game Tech</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column tech">
+          <div class="content2">
+          <img src="image/custom_website.png" alt="Car" style="width:100%; height: 12em;">
+            <h4>Custom Website</h4>
+            <p>Lorem ipsum dolor..</p>
+            <a href="kategori-1.html">Read More..</a>
+          </div>
+        </div>
+        <div class="column media">
+            <div class="content2">
+            <img src="image/media.png" alt="Car" style="width:100%; height: 12em;">
+              <h4>NFT Design</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="kategori-1.html">Read More..</a>
+            </div>
+          </div>
+          <div class="column logo">
+            <div class="content2">
+            <img src="image/logo-desain5.jpg" alt="Car" style="width:100%; height: 12em;">
+              <h4>Logo Design</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column logo">
+            <div class="content2">
+            <img src="image/logo-desain4.png" alt="Car" style="width:100%; height: 12em;">
+              <h4>Logo Maker</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column tech">
+            <div class="content2">
+            <img src="image/tech4.jpg" alt="Car" style="width:100%; height: 12em;">
+              <h4>Web Development</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column data">
+            <div class="content2">
+            <img src="image/data3.jpg" alt="Car" style="width:100%; height: 12em;">
+              <h4>SQL Database</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column data">
+            <div class="content2">
+            <img src="image/data2.png" alt="Car" style="width:100%; height: 12em;">
+              <h4>Solve Problem</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column tech">
+            <div class="content2">
+            <img src="image/tech3.png" alt="Car" style="width:100%; height: 12em;">
+              <h4>3D Modeling</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column tech">
+            <div class="content2">
+            <img src="image/tech5.png" alt="Car" style="width:100%; height: 12em;">
+              <h4>Web Development</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column video">
+            <div class="content2">
+            <img src="image/video3.png" alt="Car" style="width:100%; height: 12em;">
+              <h4>Video Maker</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+          <div class="column media">
+            <div class="content2">
+            <img src="image/media3.jpg" alt="Car" style="width:100%; height: 12em;">
+              <h4>FaceBook Ads</h4>
+              <p>Lorem ipsum dolor..</p>
+              <a href="#">Read More..</a>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-offset-2">
+                <div class="col-md-2">
+                    <div class="footer-card">
+                            <h4>Contact</h4>
+                        <div>
+                            <a href="https://www.instagram.com/nicodmwn/"><i class="fa fa-instagram"></i> Instagram</a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa fa-envelope"></i> Email</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-card">
+                        <h4>Support</h4>
+                    <div>
+                        <a href="help.html">Help</a>
+                    </div>
+                    <div>
+                        <a href="#" onclick="myFunction()">Faqs</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-card">
+                        <h4>About</h4>
+                    <div>
+                        <a href="index.html#about">About JASAKU</a>
+                    </div>
+                    <div>
+                        <a href="#" onclick="myFunction()">Privacy & Policy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-offset-2">
+                <a class="judul-bawah">JASAKU</a>
+                <small>&copy;Copyright 2022 | by <a>Nico Darmawan</a></small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("column");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    
+    
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+
+    function myFunction(){
+      alert("Halaman yang anda Kunjungi sedang dalam Perbaikan\n\n -Team JASAKU :D");
+    }
+    </script>
+
+</body>
+</html>
